@@ -12,7 +12,7 @@ function App() {
         </div> */}
         <div style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)', justifyContent: 'center' }}>
           <div style={{textAlign: 'center'}}>
-          <h1 >Happy Valentine's Day Mara Cris L. Ugdal😊❤️!</h1>
+          <h2 >Happy Valentine's Day Mara Cris L. Ugdal😊❤️!</h2>
           </div>
         </div>
         <div className="envelope-wrapper">
@@ -50,7 +50,7 @@ function App() {
         </div>
       </div>
       {message && (
-        <div onClick={(e) => e.stopPropagation()} style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)', height: '260px', width: '400px', overflow: 'auto', zIndex: '99999', backgroundColor: 'white', borderRadius: '10px' }}>
+        <div onClick={(e) => e.stopPropagation()} className="mobile">
           
           <div style={{ padding: '20px 20px 5px 20px' }}>
             <span>Eloy's Message</span>

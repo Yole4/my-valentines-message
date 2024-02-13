@@ -77,13 +77,16 @@ body {
 .line1 {
     top: 15%;
 }
+
 .line2 {
     top: 30%;
 }
+
 .line3 {
     top: 50%;
     text-align: center;
 }
+
 .line4 {
     top: 65%;
     text-align: center;
@@ -127,7 +130,8 @@ body {
     right: 10%;
 }
 
-.heart:before, .heart:after {
+.heart:before,
+.heart:after {
     position: absolute;
     content: "";
     background: #d00000;
@@ -155,31 +159,34 @@ body {
     left: 20%;
     transform: scale(0.6);
     opacity: 1;
-    animation: slideUp 4s linear 1, sideSway 2s  ease-in-out 4 alternate;
+    animation: slideUp 4s linear 1, sideSway 2s ease-in-out 4 alternate;
     animation-fill-mode: forwards;
     animation-delay: 0.7s;
 }
+
 .a2 {
     left: 55%;
     transform: scale(1);
     opacity: 1;
-    animation: slideUp 5s linear 1, sideSway 4s  ease-in-out 2 alternate;
+    animation: slideUp 5s linear 1, sideSway 4s ease-in-out 2 alternate;
     animation-fill-mode: forwards;
     animation-delay: 0.7s;
 }
+
 .a3 {
     left: 10%;
     transform: scale(0.8);
     opacity: 1;
-    animation: slideUp 7s linear 1, sideSway 2s  ease-in-out 6 alternate;
+    animation: slideUp 7s linear 1, sideSway 2s ease-in-out 6 alternate;
     animation-fill-mode: forwards;
     animation-delay: 0.7s;
 }
 
 @keyframes slideUp {
     0% {
-       top: 0;
+        top: 0;
     }
+
     100% {
         top: -600px;
     }
@@ -189,6 +196,7 @@ body {
     0% {
         margin-left: 0px;
     }
+
     100% {
         margin-left: 50px;
     }
@@ -198,7 +206,7 @@ body {
     text-align: center;
 }
 
-.reset button {
+.reset button{
     font-weight: 800;
     font-style: normal;
     transition: all 0.1s linear;
@@ -227,7 +235,33 @@ body {
 .valentine {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color:rgb(20, 20, 20);
+    color: rgb(20, 20, 20);
     font-size: 70px;
     margin: 150px;
+}
+
+.mobile {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 260px;
+    width: 400px;
+    overflow: auto;
+    z-index: 99999;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .mobile {
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    .reset button{
+        margin: 10px auto; /* Center the buttons */
+        display: block;
+        width: calc(50% - 20px); /* Two buttons side by side with margin */
+    }
 }
