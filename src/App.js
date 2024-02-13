@@ -10,8 +10,10 @@ function App() {
         {/* <div style={{textAlign: 'center'}}>
           <a style={{ zIndex: '5', position: 'absolute' }} href="sample.com" target="_blank">View Message</a>
         </div> */}
-        <div style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)' }}>
-          <h1 >Happy Valentine's Day Mara Cris Lumactod Ugdal😊❤️!</h1>
+        <div style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)', justifyContent: 'center' }}>
+          <div style={{textAlign: 'center'}}>
+          <h1 >Happy Valentine's Day Mara Cris L. Ugdal😊❤️!</h1>
+          </div>
         </div>
         <div className="envelope-wrapper">
           <div id="envelope" className="close" >
