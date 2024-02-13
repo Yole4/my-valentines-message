@@ -64,7 +64,7 @@ function App() {
             <span style={{ marginRight: '65px' }}>From</span>
           </div>
 
-          <button onClick={() => setMessage(false)} style={{ background: '#007bff', border: 'none', padding: '10px', borderRadius: '5px', marginLeft: '20px' }}>Close</button>
+          {/* <button onClick={() => setMessage(false)} style={{ background: '#007bff', border: 'none', padding: '10px', borderRadius: '5px', marginLeft: '20px' }}>Close</button> */}
         </div>
       )}
     </>
