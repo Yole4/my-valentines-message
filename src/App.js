@@ -22,7 +22,7 @@ function App() {
             <div className="letter">
             <a style={{position: 'absolute', top: '2px', right: '2px', fontSize: '12px'}} href="#" onClick={(e) => {setMessage(true); e.stopPropagation()}} >View Message</a>
               <div style={{ padding: '20px 20px 14px 14px' }}>
-                <span>Dear: </span><a href="https://www.facebook.com/maracrislumactod.ugdal" target="_blank">Secret❤️</a>
+                <span>Dear: </span><a href="#" target="_blank">Secret❤️</a>
               </div>
               <div style={{ fontSize: '15px', paddingLeft: '14px' }}>
                 <span>
